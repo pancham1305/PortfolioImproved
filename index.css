@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&display=swap");
+
+#navbar {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+#link {
+  text-decoration: none;
+  padding: 5px 20px 15px 20px;
+  color: beige;
+  background-color: #aa4586;
+  border-radius: 20px;
+}
+
+#intro {
+  padding-left: 20px;
+  color: #d0ffce;
+  padding: 80px 80px 50px 100px;
+  text-transform: capitalize;
+  background-image: url(./index.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Playfair Display;
+}
+
+.about {
+  color: grey;
+  padding-left: 80px;
+}
+#contactform {
+  text-align: center;
+  color: gray;
+}
+
+@media screen and (max-width: 525px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  #intro {
+    font-size: 12px;
+  }
+}
